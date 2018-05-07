@@ -1,0 +1,21 @@
+GET http://localhost:8080/api/member
+Content-Type: application/json; charset=UTF-8
+
+###
+
+GET http://localhost:8080/api/member/1
+Content-Type: application/json; charset=UTF-8
+
+###
+
+POST http://localhost:8080/api/member
+Content-Type: application/json; charset=UTF-8
+
+{"id":4, "name": "test2", "status" : "44415", "departmentId" : "2"}
+
+###
+
+DELETE http://localhost:8080/api/member/1
+Content-Type: application/json; charset=UTF-8
+
+###
